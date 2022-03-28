@@ -24,7 +24,7 @@ const AddItem: React.FC<Props> = ({shoppingList, setShoppingList}) => {
 
   const addItem = () => {
     if (!item) {
-      Alert.alert('No Item!', 'You need to enter an item');
+      Alert.alert('No Item!', 'Please enter item');
     } else {
       setShoppingList([
         ...shoppingList,
